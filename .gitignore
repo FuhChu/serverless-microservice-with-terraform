@@ -1,0 +1,25 @@
+# Terraform files
+# Ignore state files, which can contain sensitive information.
+*.tfstate
+*.tfstate.*
+
+# Ignore plan files
+*.tfplan
+
+# Ignore crash logs
+crash.log
+
+# Ignore the .terraform directory, which contains provider plugins
+.terraform/
+.terraform.lock.hcl
+.terraform.shared.lock.hcl
+
+# Lambda function build artifacts and dependencies
+lambda_function.zip
+/lambda/node_modules/
+
+# Common OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
