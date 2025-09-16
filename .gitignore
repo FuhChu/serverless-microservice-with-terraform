@@ -11,8 +11,7 @@ crash.log
 
 # Ignore the .terraform directory, which contains provider plugins
 .terraform/
-.terraform.lock.hcl
-.terraform.shared.lock.hcl
+
 
 # Lambda function build artifacts and dependencies
 lambda_function.zip
